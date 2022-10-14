@@ -2,6 +2,18 @@ h1{
     background-color: bisque;
 }
 
-body{
-    background-color: black;
+
+.colums{
+    column-count: 3;
+    column-rule-style: solid ;
+    column-gap: 20px;
+    column-rule-width: 2px;
+    column-rule-color: aqua;
+    column-width: 100px;
+}
+
+.row{
+    column-count: 4;
+    column-rule-style: solid;
+    column-rule-color: grey;
 }
